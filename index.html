@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edibles</title>
+    <link rel = "icon" href = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAHexvUdejPToHOXrHACQdyO0a7G-0y4XoJA&usqp=CAU" type = "image/x-icon">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+  </head>
+<body>
+    <header>
+        <div class="row bg-light pt-2 pl-5 "><div>
+            <nav class="navbar navbar-expand-lg navbar-light  ">
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item active pl-5 ">
+                      <a class="nav-link " href="#"><p class="text-dark">HOME</p> <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item pl-3">
+                      <a class="nav-link" href="#"><p class="text-dark">ABOUT US</p></a>
+                    </li>
+                    
+                    <li class="nav-item pl-3">
+                      <a class="nav-link" href="#"><p class="text-dark">DIET PLANS</p></a>
+                    </li>
+                    <li class="nav-item pl-3">
+                    <button type="button" class="btn btn-dark">SELECT YOUR PLANS</button>
+                    </li>
+                   </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="pl-5 center" >
+        <img class="pl-5" style="width: 100px; height: 50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAHexvUdejPToHOXrHACQdyO0a7G-0y4XoJA&usqp=CAU" class="rounded-circle" alt="..">    
+        </div>
+        <div class="ml-auto">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  navbar-center ml-auto pr-5">
+                      <li class="nav-item ">
+                        <button type="button" class="btn btn-dark btn-round" data-toggle="modal" data-target="#loginModal">
+                            Signin
+                          </button> 
+                          <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header border-bottom-0">
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  <div class="form-title text-center">
+                                    <h4>Login</h4>
+                                  </div>
+                                  <div class="d-flex flex-column text-center">
+                                    <form>
+                                      <div class="form-group">
+                                        <input type="email" class="form-control" id="email1"placeholder="Your email address...">
+                                      </div>
+                                      <div class="form-group">
+                                        <input type="password" class="form-control" id="password1" placeholder="Your password...">
+                                      </div>
+                                      <button type="button" class="btn btn-info btn-block btn-round" onclick="window.location.href='login.html'">Login</button>
+                                    </form>
+                                    
+                                    <div class="text-center text-muted delimiter">or use a social network</div>
+                                    <div class="d-flex justify-content-center social-buttons">
+                                      <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Twitter">
+                                        <i class="fab fa-twitter"></i>
+                                      </button>
+                                      <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Facebook">
+                                        <i class="fab fa-facebook"></i>
+                                      </button>
+                                      <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Linkedin">
+                                        <i class="fab fa-linkedin"></i>
+                                      </button>
+                                    </di>
+                                  </div>
+                                </div>
+                              </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                  <div class="signup-section">Not a member yet? <a href="#a" class="text-info"> Sign Up</a>.</div>
+                                </div>
+                            </div>
+                          </div>
+                      </li>
+                      <li class="nav-item pl-3 pr-5">
+                        <button type="button" class="btn btn-dark">Register</button>
+                      </li>
+                   </ul>
+                </div>
+            </nav>
+        </div>
+     </div>
+    </header>
+    
+    <div  class="bg-image" 
+     style=" background-repeat:no-repeat;background-image: url('https://images.creativemarket.com/0.1.0/ps/7687299/1820/1213/m1/fpnw/wm1/wljtvqxzpl2ydwor9kfrg36ref6vp70lmxvcimjqwewxinptikfa13uqtzxswogs-.jpg?1580658325&s=b1f29d3781d561534cf4979472828c49'); height: 50vh">
+            <h1 class="mb-3 h2 pt-3 "style="text-align:center; color: white;">Feel free to contact us for your customized meal plans</h1>
+            <div class="bg-light container " >
+            <form>
+                <div  class="row ">
+                  <div class="form-group  col-5 pt-3 ">
+                    <label>Your name*</label>
+                    <input type="name" class="form-control" >
+                  </div>
+                  <div class="form-group  col-6 pt-3 ">
+                    <label >Your Email</label>
+                    <input type="email" class="form-control" >
+                  </div>
+                  <div class=" bg-success text-white col-1"></div>
+                  </div>
+                  <div class="row">
+                  <div class="form-group col-5">
+                    <label >Your Mobile No*</label>
+                    <input type="number" class="form-control">
+                  </div>
+                  <div class="form-group col-6">
+                  <label for>Message</label>
+                  <input type="text" class="form-control" >
+                </div>
+                <div class=" bg-success text-white col-1 text-center ">Send<br> Now</div>
+                </div>
+               
+            
+              </form>
+           </div>
+    </div>  
+    <footer>
+        <div class="d-flex justify-content-around  ">
+            <div >
+                <img class="pl-5" style="width: 200px; height: 150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAHexvUdejPToHOXrHACQdyO0a7G-0y4XoJA&usqp=CAU" class="rounded-circle" alt="..">    
+
+            </div>
+            <div class="pt-3">
+                <h6 class="text-success font-weight-bold">ADDRESS</h6>
+                <p>Edible Kitchen Services<br>JN Stadium, Kaloor<br>Kochi-6806644</p>
+            </div>
+            <div class="pt-3">
+                <h6 class="text-success font-weight-bold">PHONE</h6>
+                <p>0124 398 6371</p>
+
+            </div>
+            <div class="pt-3">
+                <h6 class="text-success font-weight-bold">QUICK LINKS</h6>
+                <p>My Account<br>
+                About Us<br>
+            Keto Plans<br>Our Dishes</p>
+            </div>
+            <div class="pt-3">
+                <h6 class="text-success font-weight-bold">FOLLOW US</h6>
+                <a href="#"  style="text-decoration: none;color: black;">
+                    <i class="fa fa-facebook  " aria-hidden="true"></i></a>
+                    <a href=""  style="text-decoration: none;color: black">
+                        <i class="fa fa-whatsapp pl-2 " aria-hidden="true;"></i></a>
+                        <a href="#" style="text-decoration: none;color: black;">
+                            <i class="fa fa-twitter pl-2" aria-hidden="true"></i></a>   
+                    <a href="#"  style="text-decoration: none;color: black;">
+        
+                    <i class="fa fa-instagram pl-2" aria-hidden="true"></i></a>
+                    <a href="#" style="text-decoration: none;color: black;">
+                    <i class="fa fa-youtube pl-2" aria-hidden="true"></i></a>
+                    
+                     
+            </div>
+            </div>
+            
+                <div class="col "><hr></div>
+            
+            <div >
+                <p class="text-center">Copyright 2020-2021 Edibles - All Rights Reserved</p>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+    <script src="https://kit.fontawesome.com/84b6b52512.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
